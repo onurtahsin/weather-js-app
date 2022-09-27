@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./img/16_iday.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div
+        id="ac"
+        class="row d-flex justify-content-center align-content-center text-center"
+      >
+        <div class="col-4">
+          <img
+            style="width: 600px"
+            src="./img/kisspng-weather-forecasting-the-weather-channel-inc-instit-weather-report-png-transparent-images-5aad6f5865dd18.3157317515213156724172.png"
+            alt=""
+          />
+          <!-- <h1>Weather Forecast</h1> -->
+          <input id="input" type="text" class="form-control" />
+          <button class="btn btn-info text-white mt-2">Search</button>
+        </div>
+      </div>
+      <div class="col-12 container align-content-center">
+        <div id="result" class="row"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
